@@ -25,6 +25,7 @@ function backspace() {
     display.value = display.value.slice(0, -1);
 }
 
+// added keyboard support
 // Listen for keydown events to handle keyboard input
 document.addEventListener('keydown', function(event) {
     const key = event.key;
