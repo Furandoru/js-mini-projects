@@ -25,6 +25,29 @@ function backspace() {
     display.value = display.value.slice(0, -1);
 }
 
+const toggle = document.getElementById("darkModeToggle");
+const body = document.body;
+
+toggle.addEventListener("click", () => {
+  body.classList.toggle("dark");
+
+  // Change emoji
+  if (body.classList.contains("dark")) {
+    toggle.textContent = "🌞"; // Dark mode on, show sun
+  } else {
+    toggle.textContent = "🌙"; // Light mode, show moon
+  }
+
+  // Save preference
+  localStorage.setItem("theme", body.classList.contains("dark") ? "dark" : "light");
+});
+window.addEventListener("DOMContentLoaded", () => {
+    const savedTheme = localStorage.getItem("theme");
+    if (savedTheme === "dark") {
+      body.classList.add("dark");
+      toggle.textContent = "🌞";
+    }
+  });  
 // added keyboard support
 // Listen for keydown events to handle keyboard input
 document.addEventListener('keydown', function(event) {
