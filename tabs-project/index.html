@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title></title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="tabs-container">
+    <div class="tab-buttons">
+      <button class="tab-button active" data-tab="home">Home</button>
+      <button class="tab-button" data-tab="about">About</button>
+      <button class="tab-button" data-tab="projects">Projects</button>
+      <button class="tab-button" data-tab="contact">Contact</button>
+    </div>
+
+    <div class="tab-content active" id="home">
+      <h2>📚 Learning Progress</h2>
+      <ul class="progress-list">
+        <li><input type="checkbox" checked disabled> HTML ✅</li>
+        <li><input type="checkbox" checked disabled> CSS ✅</li>
+        <li><input type="checkbox" checked disabled> JavaScript Basics ✅</li>
+        <li><input type="checkbox" checked disabled> Git + GitHub ✅</li>
+        <li><input type="checkbox" checked disabled> Calculator Project ✅</li>
+        <li><input type="checkbox" checked disabled> To-Do List Project ✅</li>
+        <li><input type="checkbox"> TypeScript (coming soon)</li>
+        <li><input type="checkbox"> React (coming soon)</li>
+        <li><input type="checkbox"> Portfolio Website</li>
+      </ul>
+    </div>
+
+    <div class="tab-content" id="about">
+      <div id="about-section">
+        <h2>About Me</h2>
+        <div class="about-container">
+          <div class="about-img">
+            <img src="https://cdn.donmai.us/sample/c2/52/__herta_the_herta_and_herta_honkai_and_1_more_drawn_by_cobalta__sample-c2520f593834836fac2a3fd48f8be730.jpg" alt="Profile" />
+          </div>
+          <div class="about-info">
+            <p>Hi! I’m learning front-end development. Currently working on JavaScript and building projects.</p>
+            <div class="skills">
+              <h3>Skills</h3>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-content" id="projects">
+      <h2>💻 Projects</h2>
+      <div class="project-card">
+        <h3>Calculator App</h3>
+        <p>A simple calculator built with HTML, CSS, and JavaScript.</p>
+        <a href="https://github.com/Furandoru/js-mini-projects/tree/main/calculator-project" target="_blank">🔗 View on GitHub</a>
+      </div>
+      <div class="project-card">
+        <h3>To-Do List App</h3>
+        <p>Task manager with dark mode and basic functionality.</p>
+        <a href="https://github.com/Furandoru/js-mini-projects/tree/main/To-do-list" target="_blank">🔗 View on GitHub</a>
+      </div>
+    </div>
+
+    <div class="tab-content" id="contact">
+      <h2>📬 Contact</h2>
+      <p>You can reach me via GitHub or email.</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
