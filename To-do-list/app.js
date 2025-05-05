@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function () {
         taskInput.value = "";
       }
     });
-  
+    
     // Allow adding task via Enter key
     taskInput.addEventListener("keypress", function (e) {
       if (e.key === "Enter") {
