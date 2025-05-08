@@ -37,4 +37,10 @@ body {
     text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc;
     animation: pulse 2s infinite ease-in-out;
   }
+  #date {
+    font-size: 3vw;
+    color: #00ffcc;
+    margin-top: 10px;
+    font-weight: lighter;
+  }
   
