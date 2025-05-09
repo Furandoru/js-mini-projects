@@ -18,7 +18,7 @@ body {
   text-align: center;
 }
 
-@keyframes pulse {
+/* @keyframes pulse {
     0% {
       text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc;
     }
@@ -28,7 +28,7 @@ body {
     100% {
       text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc;
     }
-  }
+  } */
   
   #clock {
     font-size: 10vw;
@@ -42,5 +42,10 @@ body {
     color: #00ffcc;
     margin-top: 10px;
     font-weight: lighter;
+  }
+
+  .fade {
+    opacity: 0;
+    transition: opacity 0.3s ease;
   }
   
