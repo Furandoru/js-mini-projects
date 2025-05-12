@@ -8,11 +8,7 @@ body {
     transition: background-color 0.3s, color 0.3s;
   }
   
-  body.dark {
-    background-color: #121212;
-    color: #fff;
-  }
-  
+
   .tabs-container {
     background: white;
     border-radius: 12px;
@@ -101,19 +97,6 @@ body {
     text-decoration: underline;
   }
   
-  body.dark .project-card {
-    background-color: #2a2a2a;
-    color: #fff;
-  }
-  
-  body.dark .tab-button.active {
-    background-color: #444;
-    color: white;
-  }
-  
-  body.dark .project-card a {
-    color: #4c99ff;
-  }
   
   @media (max-width: 768px) {
     .tabs-container {
@@ -192,14 +175,5 @@ body {
   .skills li::before {
     content: "✔️ ";
     color: green;
-  }
-  
-  body.dark #about-section {
-    background-color: #2a2a2a;
-    color: white;
-  }
-  
-  body.dark .skills li::before {
-    color: lightgreen;
   }
   
