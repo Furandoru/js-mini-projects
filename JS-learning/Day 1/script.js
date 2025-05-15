@@ -1,5 +1,7 @@
 const movies = ["Overlord", "Shadow", "The Witcher", "Attack on Titan", "Death Note"];
 
+// Function to display the list of movies
+// This function creates a list item for each movie and appends it to the unordered list  
 
 function displayMovies() {
   const list = document.getElementById("movieList");
