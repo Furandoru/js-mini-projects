@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Comment Box</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    #commentInput {
+      width: 300px;
+      padding: 10px;
+    }
+
+    #postBtn {
+      padding: 10px 15px;
+      margin-left: 5px;
+      cursor: pointer;
+    }
+
+    #commentsSection {
+      margin-top: 20px;
+      max-width: 400px;
+    }
+
+    .comment {
+      padding: 10px;
+      background-color: #f2f2f2;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      position: relative;
+    }
+
+    .deleteBtn {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      cursor: pointer;
+      background-color: red;
+      color: white;
+      border: none;
+      padding: 5px;
+      border-radius: 3px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Comment Box</h2>
+  <input type="text" id="commentInput" placeholder="Write a comment..." />
+  <button id="postBtn">Post</button>
+
+  <div id="commentsSection"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
