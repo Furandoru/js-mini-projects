@@ -8,3 +8,4 @@ My goal is to work remotely in a dynamic development team where I can grow and c
 - 📚 Building projects using **React**
 - 🎨 Designing responsive and user-friendly websites
 - 🧠 Preparing for developer interviews
+-
