@@ -10,10 +10,5 @@ My goal is to work remotely in a dynamic development team where I can grow and c
 - 🧠 Preparing for developer interviews
 
 ### Projects
-- Real Estate Project
-- 
--
--
--
--
+
 
